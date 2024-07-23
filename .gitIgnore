@@ -1,0 +1,58 @@
+# Python specific
+*.pyc
+__pycache__/
+
+# Virtual Environment
+.venv/
+venv/
+
+# IDE specific
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Compiled files
+*.pyc
+
+# macOS specific
+.DS_Store
+
+# Environment variables
+*.env
+
+# Ignore Firebase service account key
+serviceAccountKey.json
+
+# Ignore Poetry specific files
+poetry.lock
+__pypackages__/
+
+# Ignore generated files
+*.pyc
+
+# Ignore install
+install-poetry.py
+
+# Ignore node modules
+node_modules/
+
+# Ignore build
+build/
+
+# Ignore react environment
+React-Web-Client
+
+# Other
+*.csv
+*.swp
+*.out
+*.pid
+*.coverage
+
+
+*.pyo
+*.pyd
+*.db
+uploads/
